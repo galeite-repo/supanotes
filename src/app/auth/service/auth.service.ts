@@ -12,6 +12,7 @@ export class AuthService {
   constructor() {
     this._supabase.auth.onAuthStateChange((session) => {
       console.log(session);
+      console.log(session);
     });
   }
   session() {
